@@ -6,6 +6,9 @@ import db from './database';
 const app = express();
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Backend is running! Use /identify to POST data.');
+});
 
 //  /identify api
 app.post('/identify', async (req: Request, res: Response) => {
