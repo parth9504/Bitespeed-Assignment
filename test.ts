@@ -53,7 +53,7 @@ async function runAllTests() {
     phoneNumber: "717171"
   });
 
-  // Test 6: THE MERGE. 
+  // Test 6:
   // Incoming request links George's email with Biff's phone number.
   // Biff's row should become secondary to George's row.
   await testIdentify("Test 6: Merge Primary Contacts", {
