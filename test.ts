@@ -6,7 +6,7 @@ async function testIdentify(testName: string, payload: object) {
   console.log("Request Payload:", payload);
 
   try {
-    const response = await fetch('http://localhost:5000/identify', {
+    const response = await fetch('http://localhost:3000/identify', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
