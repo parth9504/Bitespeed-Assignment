@@ -3,7 +3,7 @@
 This is a backend web service to handle identity reconciliation. It collects customer contact details and intelligently links different orders made with various email addresses and phone numbers to the same individual.
 
 ## 🌐 Live Web Service
-**Base URL:** `https://bitespeed-assignment-yv6u.onrender.com/`
+**Base URL:** [Visit my backend](https://bitespeed-assignment-yv6u.onrender.com)
 
 
 ## 🛠️ Tech Stack
@@ -40,4 +40,11 @@ The endpoint expects a JSON body containing an `email`, a `phoneNumber`, or both
 }
 ```
 #### Outputs
+
+<img width="938" height="807" alt="image" src="https://github.com/user-attachments/assets/009463d0-46af-49db-a4b2-763b74898bf9" />
+
+
+<img width="880" height="780" alt="image" src="https://github.com/user-attachments/assets/a0df17b8-4627-4088-9364-2c64de193429" />
+
+
 
